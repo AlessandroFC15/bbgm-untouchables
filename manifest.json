@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "BBGM Untouchables",
+  "version": "1.0.0",
+  "description": "A Chrome extension for managing untouchable players in Basketball GM",
+  "icons": {
+    "128": "icons/logo.png"
+  },
+  "permissions": [
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://play.basketball-gm.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://play.basketball-gm.com/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
+}
