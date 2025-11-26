@@ -19,7 +19,8 @@
         "https://play.basketball-gm.com/*"
       ],
       "js": [
-        "content.js"
+        "src/toast.js",
+        "src/content.js"
       ]
     }
   ]
